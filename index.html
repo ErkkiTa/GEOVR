@@ -6,8 +6,7 @@
     <meta name="description" content="GeoVR! • A-Frame">
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
   </head>
-  <!--Üldine taustaheli-->
-  <a-sound src="src: url(ambient.mp3)" autoplay="true" position="0 2 5" sound.loop="true"></a-sound>
+
   
   <body>
     <a-scene background="color: #ECECEC">
@@ -23,6 +22,8 @@ Vajutades maakoorekihi peale ning jargmisena kuvab see infoseinale infot selle k
 2x puldiga maakoorekihi peale vajutades lendad selle kihi vahele ja naed seda tuuma lahemalt.
 Testi lahendades pead sa valima kas lause on toene voi vaar.
 Testi lahendades esitatakse 10 vaidet."></a-text>
+        <!--Üldine taustaheli-->
+       <a-sound src="src: url(ambient.mp3)" autoplay="true" position="0 2 5" sound.loop="true"></a-sound>
       <!--Valikud-->
        <a-box rotation="360 90 0"position="-1 2 -1" src="test2.jpg" width="0.01" depth="0.5" height="0.5"></a-box>
        <a-box rotation="360 90 0"position="1 2 -1" src="oppimine2.jpg" width="0.01" depth="0.5" height="0.5"></a-box>
@@ -30,26 +31,18 @@ Testi lahendades esitatakse 10 vaidet."></a-text>
       <a-box id="Roosa kast" position="-3 1.1 -3" color="pink" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
       <a-text id="Roosa kasti tekst" value="Tahke sisetuum" position="-3.463 1.1 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
       
-      <a-box id="Sinine kast" position="-3 1.5 -3" color="skyblue" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
-      <a-entity id="Sinise kasti tekst" text-texture="text:Tahke sisetuum
-                              
-                              
-                              ;scale: 0.2" position="-3 1.48 -2.92" rotation="0 0 0" color="white" height="1.45" width="2.940"></a-entity>
+      <a-box id="Sinise kast" position="-3 1.5 -3" color="skyblue" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
+      <a-text id="Sinise kasti tekst" value="Tahke sisetuum" position="-3.463 1.508 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
+      
       <a-box id="Kollane kast" position="-3 1.9 -3" color="yellow" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box>
-      <a-entity id="Kollase kasti tekst" text-texture="text:Tahke sisetuum
-                              
-                              
-                              ;scale: 0.2" position="-3 1.86 -2.92" rotation="0 0 0" color="white"></a-entity>
-      <a-box id="Oranž kast" position="-3 2.3 -3" color="orange" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
-      <a-entity id="Oranži kasti tekst" text-texture="text:Tahke sisetuum
-                              
-                              
-                              ;scale: 0.2" position="-3 2.24 -2.92" rotation="0 0 0" color="white"></a-entity>
+      <a-text id="Kollase kasti tekst" value="Tahke sisetuum" position="-3.463 1.914 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
+      
+      <a-box id="Oranź kast" position="-3 2.3 -3" color="orange" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
+      <a-text id="Oranźi kasti tekst" value="Tahke sisetuum" position="-3.463 2.302 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
+      
       <a-box id="Punane kast" position="-3 2.7 -3" color="red" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
-      <a-entity id="Punase kasti tekst" text-texture="text:Tahke sisetuum
-                              
-                              
-                              ;scale: 0.2" position="-3 2.64 -2.92" rotation="0 0 0" color="white"></a-entity>
+      <a-text id="Punase kasti tekst" value="Tahke sisetuum" position="-3.463 2.714 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
+      
     </a-scene>
   </body>
 </html>
