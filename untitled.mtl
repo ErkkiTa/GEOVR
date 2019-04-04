@@ -10,7 +10,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\erich.hobe\\Documents\\earth-11597_960_720.jpg
+map_Kd earth-11597_960_720.jpg
 
 newmtl Material.002
 Ns 96.078431
@@ -21,7 +21,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\erich.hobe\\Documents\\lox.jpg
+map_Kd 2.jpg
 
 newmtl Material.003
 Ns 96.078431
@@ -32,7 +32,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\erich.hobe\\Documents\\jneej lox.jpg
+map_Kd 3.jpg
 
 newmtl Material.004
 Ns 96.078431
@@ -43,7 +43,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\erich.hobe\\Documents\\WCenSFw.jpg
+map_Kd 1.jpg
 
 newmtl Material.005
 Ns 96.078431
@@ -54,7 +54,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\\Users\\erich.hobe\\Documents\\jenny on minecraftis noob.jpg
+map_Kd 2.jpg
 
 newmtl None
 Ns 0
