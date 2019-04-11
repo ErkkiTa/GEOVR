@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"; encoding: "UTF-8" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"; encoding: "UTF-8" />
+   <meta charset="UTF-8">
     <title>GEOVR! •</title>
     <meta name="description" content="GeoVR! • A-Frame">
     <script src="https://aframe.io/releases/0.9.0/aframe.min.js"></script>
@@ -13,12 +14,12 @@
       <!--Maakera-->
       <a-sphere position="0 1.25 -5" radius="3" src="https://cdn.glitch.com/1c770265-2368-4d9c-acb6-14ecacd28e33%2Fimage.png?1553670256427" shadow></a-sphere>
       <!--Taevapilt-->
-      <a-sky src="t4.png"></a-sky>
+      <a-sky src="hehehe.jpg"></a-sky>
       <!--Juhend-->
       <a-text id="Juhend" rotation="0 180 0" position="3 2 5" value="Juhend
- 
+
 Alustades sektori sees on sul kaks valikut: Oppimine voi Testi lahendamine.
-Vajutades maakoorekihi peale ning jargmisena kuvab see infoseinale infot selle kihi kohta (video, tekst jne.)
+Vajutades maakoorekihi peale ning järgmisena kuvab see infoseinale infot selle kihi kohta (video, tekst jne.)
 2x puldiga maakoorekihi peale vajutades lendad selle kihi vahele ja naed seda tuuma lahemalt.
 Testi lahendades pead sa valima kas lause on toene voi vaar.
 Testi lahendades esitatakse 10 vaidet."></a-text>
@@ -26,8 +27,8 @@ Testi lahendades esitatakse 10 vaidet."></a-text>
         <!--Üldine taustaheli-->
        <a-sound src="src: url(ambient.mp3)" autoplay="true" position="0 2 5" sound.loop="true"></a-sound>
       <!--Valikud-->
-       <a-box rotation="360 90 0"position="-1 2 -1" src="test2.jpg" width="0.01" depth="0.5" height="0.5"></a-box>
-       <a-box rotation="360 90 0"position="1 2 -1" src="oppimine2.jpg" width="0.01" depth="0.5" height="0.5"></a-box>
+       <a-box rotation="360 90 3"position="1 1.5 1" src="test2.jpg" width="0.01" depth="0.5" height="0.5"></a-box>
+       <a-box rotation="360 90 3"position="-1 1.5 1" src="oppimine2.jpg" width="0.01" depth="0.5" height="0.5"></a-box>
       <!--Kastid-->
       <a-box id="Roosa kast" position="-3 1.1 -3" color="pink" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
       <a-text id="Roosa kasti tekst" value="Tahke sisetuum" position="-3.463 1.1 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
@@ -36,7 +37,7 @@ Testi lahendades esitatakse 10 vaidet."></a-text>
       <a-text id="Sinise kasti tekst" value="Sula välistuum" position="-3.463 1.508 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
       
       <a-box id="Kollane kast" position="-3 1.9 -3" color="yellow" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box>
-      <a-text id="Kollase kasti tekst" value="Suvavahevoo" position="-3.463 1.914 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
+      <a-text id="Kollase kasti tekst" value="Suvavahevöö" position="-3.463 1.914 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
       
       <a-box id="Oranź kast" position="-3 2.3 -3" color="orange" depth="0.3" height="1" width="0.1" rotation="90 0 90" ></a-box> 
       <a-text id="Oranźi kasti tekst" value="Ulavahevoo" position="-3.463 2.302 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
@@ -45,6 +46,10 @@ Testi lahendades esitatakse 10 vaidet."></a-text>
       <a-text id="Punase kasti tekst" value="Maakoor" position="-3.463 2.714 -2.949" rotation="0 0 0" color="blue" height="1.450" width="2.940"></a-text>
       <!--Puldi controllerid-->
       <a-entity vive-focus-controls></a-entity>
+      <a-entity id="myCameraPosition" position="0 1.25 2">
+        <a-entity id="myCamera" camera look-controls keyboard-controls>
+        </a-entity>
+    </a-entity>
       
     </a-scene>
   </body>
