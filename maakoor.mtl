@@ -1,0 +1,57 @@
+# Blender MTL File: 'untitled.blend'
+# Material Count: 5
+
+newmtl Material.005
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\erich.hobe\\Documents\\world_topography_cloud-cover-pacific-giclee_lg.jpg
+
+newmtl Material.006
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\erich.hobe\\Documents\\earth-s-mantle 1.jpg
+
+newmtl Material.007
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\erich.hobe\\Documents\\70172581-the-texture-of-molten-lava.jpg
+
+newmtl Material.008
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\erich.hobe\\Documents\\fire.jpg
+
+newmtl Material.009
+Ns 96.078431
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\\Users\\erich.hobe\\Documents\\seamless-molten-grunge-fire-magma-larva-background-pattern-texture-from-with-volcano-eruption-with-hot-red-larva-fire-and-flame-background-texture-in-4k-ultra-hd-animation-loop_hhsrfmw1l_thumbnail-full01.png
